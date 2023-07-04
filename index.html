@@ -11,13 +11,46 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
+        <script src="https://kit.fontawesome.com/f3429de7b9.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <div class="main-container">
-        <header></header>
+        
+
+                <header class="appBar">
+                  <img src="images/logo/Booki.png" alt="Logo Booki" class="appBar__logo">
+                  <nav class="appBar__nav">
+                    <a class="appBar__navItem active" href="index.html">Hébergements</a>
+                    <a class="appBar__navItem" href="activités.html">Activités</a>
+                  </nav>
+                </header>
+        
+        
+        
         <main>
+            
+            <div class="trouvez-votre-hebergement">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre-ville ou en pleine nature</p>
+               
+                <div class="search-container">
+                   
+                    
+                     <form action="/action_page.php">                   
+                     <label for="search"><i class="fa-sharp fa-solid fa-location-dot pin-icon" style="color: #0a0a0a;"></i></label><span>
+                     <input type="search" id="search" class="searchbar-text" placeholder="Marseille,France" name="search">
+                     <button class="bouton-rechercher" type="submit">Rechercher</button>
+                 
+                    </form>
+                </div>
+                 <div class="filtres">
+
+                 </div>
+            </div>
+
+            
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
 
