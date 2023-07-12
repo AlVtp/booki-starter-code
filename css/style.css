@@ -208,6 +208,22 @@ button.economique:hover {
     width: 65%;
 }
 
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.hebergements .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
 .hebergements-title {
     display: flex;
     justify-content: space-between;
@@ -215,8 +231,13 @@ button.economique:hover {
 }
 
 .hebergements-cards .card {
-    
+    max-width: 250px;
     margin-top: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    justify-content: space-between;
 }
 
 .hebergements-cards img {
@@ -250,6 +271,8 @@ button.economique:hover {
 .hebergements-cards .card-rating {
     margin-bottom: 5px;
 }
+
+
 
 /****** Populaires ***********/
 .populaires {
