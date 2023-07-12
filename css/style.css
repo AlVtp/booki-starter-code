@@ -23,7 +23,21 @@ body {
     justify-content: center;
 }
 
+button.economique:hover {
+    background-color: #DEEBFF;
+  }
 
+  button.familial:hover {
+    background-color: #DEEBFF;
+  }
+
+  button.romantique:hover {
+    background-color: #DEEBFF;
+  }
+
+  button.nos-pepites:hover {
+    background-color: #DEEBFF;
+  }
 
 .main-container {
     width: 100%;
@@ -37,7 +51,16 @@ body {
     font-size: 22px;
 }
 
+.ss-titre {
+    margin-bottom: 40px;
+}
+
+.neutralStar {
+    color:  #F2F2F2;
+}
+
 .fa-location-dot {
+    background-color: #F2F2F2;
     color: black;
     height: 14px;
     width: 14px;
@@ -52,18 +75,13 @@ body {
     color: black;
 }
 
-.fa-solid {
-    background-color: #F2F2F2;
-    text-align: center;
-
-}
 
 .fa-filtre {
     
     margin: 8px;
     font-size: 20px;
     padding: 4px;
-    background-color: white;
+    background-color: none;
     box-sizing: border-box;
     height: 24px;
     width: 24px;
@@ -73,12 +91,22 @@ body {
     
 }
 
+.fa-solid {
+   
+    text-align: center;
+
+}
+
+
+
 .fa-star {
     color:#0065FC
 }
 
 .info {
     margin-right: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 12px;
     padding: 4px;
     background-color: white;
@@ -138,7 +166,9 @@ body {
    
 }
 
-
+.fa-chart-line {
+    color: #0065FC
+}
 
 .card {
     background-color: white;
@@ -159,9 +189,6 @@ body {
     font-weight: 700;
 }
 
-.neutralStar {
-    color: var(--main-bg-color)
-}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -179,6 +206,49 @@ body {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+}
+
+.hebergements-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.hebergements-cards .card {
+    
+    margin-top: 33px;
+}
+
+.hebergements-cards img {
+    width: 250px;
+    height: 124px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: ;
+}
+
+.hebergements-cards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
 }
 
 /****** Populaires ***********/
